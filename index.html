@@ -10,12 +10,12 @@
 </head>
 <body>
 <div id="main-content">
-    <div class="page-selection">
-        <portfolio_button class="myButton selected">Portfolio</portfolio_button>
-        <cv_button class="myButton">CV</cv_button>
+    <div id="page-selection">
+        <button class="myButton selected" id="portfolio-button">Portfolio</button>
+        <button class="myButton" id="cv-button">CV</button>
     </div>
-    <div id="portfolio-card"></div>
-    <div id="cv-card"></div>
+    <div id="portfolio-card" style="display: block">This is the portfolio page</div>
+    <div id="cv-card" style="display: none">This is the cv page</div>
 </div>
 <script src="main.js"></script>
 </body>

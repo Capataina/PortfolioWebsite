@@ -27,11 +27,12 @@ body, html {
     display: flex;
     flex-direction: column;
     flex: 1;
+    transition: width 0.5s ease, height 0.5s ease 0.1s;
 }
 
 /* Add more CSS here for additional styling */
 
-.page-selection {
+#page-selection {
     display: flex;
     background-color: #424549;
     color: #7289da;
@@ -39,30 +40,29 @@ body, html {
     height: 10%;
 }
 
-.page-selection portfolio_button {
+#portfolio-button {
     flex: 1;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.page-selection cv_button {
+#cv-button {
     flex: 1;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .myButton {
     background-color: #424549; /* Green background */
     border: none; /* No border */
-    color: #7289da; /* White text */
+    color: lightgray; /* White text */
     text-align: center; /* Centered text */
     text-decoration: none; /* No underline */
     display: inline-block;
-    font-size: 16px;
+    font-size: 26px;
     cursor: pointer; /* Mouse pointer on hover */
     transition: background-color 0.5s ease;
 }
@@ -82,7 +82,9 @@ body, html {
 }
 
 #cv-card {
-
+    width: 100%;
+    height: 90%;
+    display: grid;
 }
 
 
